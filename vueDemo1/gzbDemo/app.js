@@ -6,9 +6,10 @@
         }
     ];
     new Vue({
-        el:'',
+        el:'#app',
         data: {
             dataArray,
+            titleArray = ['aaa','bbb','ccc'],
         },
         methods: {
 

@@ -28,7 +28,7 @@
             <todo-item
                 v-for="item in groceryList"
                 v-bind:todo="item"
-                >
+                v-bind:key="item.id">
             </todo-item>
             </ol>
             <span  style="margin-left: 10" v-for="item in items">{{ item.value }}</span>
